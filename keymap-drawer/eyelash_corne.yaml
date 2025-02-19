@@ -104,7 +104,7 @@ layers:
   - '#'
   - $
   - '%'
-  - '&mmv_fast MOVE_UP'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
   - '*'
@@ -117,9 +117,9 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
-  - '&mmv_fast MOVE_LEFT'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
-  - '&mmv_fast MOVE_RIGHT'
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
@@ -133,7 +133,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mmv_fast MOVE_DOWN'
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
   - +
   - '{'
