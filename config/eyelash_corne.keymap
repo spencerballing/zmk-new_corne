@@ -32,6 +32,10 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+        mmv_fast: mmv_fast {
+            compatible = "zmk,behavior-mouse-move";
+            move = <1800>;  // Increase movement speed (adjust as needed)
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -54,11 +58,6 @@
        bindings = <&kp K_SCROLL_DOWN>, <&kp K_SCROLL_UP>;
 
        tap-ms = <30>;
-    };
-
-    &mmv_fast {
-       compatible = "zmk,behavior-mouse-move";
-       move = <1800>;  // Increase movement speed (adjust as needed)
     };
 
 
